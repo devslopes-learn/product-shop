@@ -5,9 +5,6 @@ var NavBar = React.createClass({
     render: function() {
 
         var navStyle = {
-            position: "fixed",
-            width: "100%",
-            zIndex: 50,
             WebkitBoxShadow: "0 0 4px rgba(0,0,0,0.4)",
             MozBoxShadow: "0 0 4px rgba(0,0,0.0.4)",
             boxShadow: "0 0 4px rgba(0,0,0,0.4)",

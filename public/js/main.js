@@ -19022,9 +19022,6 @@ var NavBar = React.createClass({
     render: function () {
 
         var navStyle = {
-            position: "fixed",
-            width: "100%",
-            zIndex: 50,
             WebkitBoxShadow: "0 0 4px rgba(0,0,0,0.4)",
             MozBoxShadow: "0 0 4px rgba(0,0,0.0.4)",
             boxShadow: "0 0 4px rgba(0,0,0,0.4)",
@@ -19121,7 +19118,7 @@ module.exports = NavItem;
 var React = require('react');
 var ReactDOM = require('react-dom');
 var NavBar = require('./components/nav/NavBar.jsx');
-
+window.React = require("react");
 var navLinks = [{
     title: "Home",
     href: "#"
